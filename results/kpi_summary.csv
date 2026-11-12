@@ -1,0 +1,10 @@
+kpi,value
+customers,30000.0
+default_rate_pct,22.12
+avg_credit_limit,167484.0
+avg_utilisation_pct,42.4
+median_payment_ratio_pct,7.8
+customers_late_in_september_pct,22.7
+default_rate_if_late_pct,50.29
+default_rate_if_not_late_pct,13.83
+late_customers_share_of_defaulters_pct,51.7

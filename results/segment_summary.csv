@@ -1,0 +1,5 @@
+segment,customers,defaulters,default_rate_pct,avg_credit_limit,avg_utilisation_pct,share_of_customers_pct,share_of_defaulters_pct
+1. Severe delay (2+ months),3130,2177,69.55,107299.0,64.2,10.4,32.8
+2. Mild delay (1 month),3688,1252,33.95,148796.0,32.3,12.3,18.9
+3. High utilisation (>70%),6966,1095,15.72,116166.0,94.1,23.2,16.5
+4. On track,16216,2112,13.02,205397.0,18.2,54.1,31.8
