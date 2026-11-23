@@ -1,0 +1,4 @@
+Rule,Customers flagged,Defaulters caught,Hit rate (precision),Defaulters caught (recall),Times higher than baseline
+2+ months late in September,3130,2177,69.6,32.8,3.14
+1+ month late in September,6818,3429,50.3,51.7,2.27
+"Late, or utilisation over 70%",13784,4524,32.8,68.2,1.48

@@ -46,6 +46,17 @@ Overall default rate: **22.12%** (6,636 of 30,000 customers).
 ![Default rate by September repayment status](results/default_rate_by_repayment_status.png)
 ![Distribution of credit limit](results/credit_limit_histogram.png)
 
+## How well do the rules work?
+The segments are simple rules, so I measured how well they find defaulters (baseline default rate: 22.12%).
+
+| Rule | Customers flagged | Defaulters caught | Hit rate (precision) | Share of all defaulters caught (recall) | Times higher than baseline |
+|---|---|---|---|---|---|
+| 2+ months late in September | 3,130 | 2,177 | 69.6% | 32.8% | 3.14 |
+| 1+ month late in September | 6,818 | 3,429 | 50.3% | 51.7% | 2.27 |
+| Late, or utilisation over 70% | 13,784 | 4,524 | 32.8% | 68.2% | 1.48 |
+
+A stricter rule is right more often but finds fewer defaulters. That is why I recommend two levels: watch customers 1 month late, and act at 2+ months late. About a third of defaulters were still "On track" in September, so a predictive model could find more; I have not built one.
+
 ## Recommendations
 
 - Monitor customers who are 1 or more months late in the latest month.
